@@ -1,0 +1,189 @@
+body{
+    height: 97.5vh;
+    background-image: linear-gradient(to bottom, #EEE2DC, #D8C3A5);
+    /* background-color: #EEE2DC; */
+    
+        
+        text-align: center;
+        color:#fff;
+        /* padding-top:10em; */
+    
+      
+     
+}
+
+
+
+#picture{
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+}
+h1{
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+    color: #EEE2DC;
+    
+}
+h2{
+    text-align: center;
+    /* border: 1px dotted; */
+    margin-left: 15%;
+    margin-right: 15%;
+    color: rgb(41, 39, 39);
+}
+
+
+
+h3 u{
+    text-align: center;
+    color: black;
+    
+}
+
+#links{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+img{
+    margin: 5px;
+}
+
+.blink{
+    height: 50px;
+    
+    background-color: transparent;
+    padding: 15px;	
+    text-align: center;
+    line-height: 50px;
+    place-items: center;
+}
+.blink h1{
+    text-align: center;
+    font-size: 25px;
+    font-family: cursive;
+    color: rgb(151, 62, 62);
+    animation: blink 1s linear infinite;
+}
+@keyframes blink{
+0%{opacity: 0;}
+50%{opacity: .5;}
+100%{opacity: 1;}
+}
+
+a{
+    color:red;
+    margin: 0ch;
+}
+
+@media  (max-width: 1000px) {
+    body{
+        height: 100vh;
+        background-image: linear-gradient(to bottom, aliceblue, rgb(153, 79, 79));
+        background-repeat: no-repeat;
+            
+            text-align: center;
+            color:#fff;
+            /* padding-top:10em; */
+        
+          
+         
+    }
+    
+    
+    
+    #picture{
+        border-radius: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 500px;
+        height: 500px;
+    }
+    h1{
+        text-align: center;
+        font-family: "Courier New", Courier, monospace;
+        color: darkred;
+        font-size: 400px;
+        
+        
+    }
+    h2{
+        text-align: center;
+        /* border: 1px dotted; */
+        margin-top: 25%;
+        margin-left: 15%;
+        margin-right: 15%;
+        color: rgb(41, 39, 39);
+        font-size: 50px;
+        font-family: Helvetica;
+    }
+
+    a{
+        font-size: 50px;
+        padding-left: 0%;
+        padding-right: 0%;
+        margin: 0ch;
+    }
+    
+    h3 u{
+        text-align: center;
+        color: black;
+        font-size: 50px;
+        font-family: Helvetica;
+    }
+    
+    #links{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    
+    img{
+        height: 100px;
+        margin: 25px;
+    }
+    
+    .blink h1{
+        height: 50px;
+        font-size: 10cm;
+        
+        background-color: transparent;
+        padding: 15px;	
+        text-align: center;
+        line-height: 50px;
+        place-items: center;
+        margin-bottom: 200px;
+    }
+    .blink h1{
+        text-align: center;
+        font-size: 100px;
+        font-family: cursive;
+        color: rgb(151, 62, 62);
+        animation: blink 1s linear infinite;
+    }
+    @keyframes blink{
+    0%{opacity: 0;}
+    50%{opacity: .5;}
+    100%{opacity: 1;}
+    }
+
+    .sp{
+        font-size: large;
+    }
+  }
+
+
+  
+
