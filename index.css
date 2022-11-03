@@ -42,7 +42,7 @@ h2{
 
 h3 u{
     text-align: center;
-    color: black;
+    color: white;
     
 }
 
@@ -70,7 +70,7 @@ img{
     text-align: center;
     font-size: 25px;
     font-family: cursive;
-    color: rgb(151, 62, 62);
+    color: white;
     animation: blink 1s linear infinite;
 }
 @keyframes blink{
@@ -171,7 +171,7 @@ a{
         text-align: center;
         font-size: 100px;
         font-family: cursive;
-        color: rgb(151, 62, 62);
+        color: white;
         animation: blink 1s linear infinite;
     }
     @keyframes blink{
