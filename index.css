@@ -35,7 +35,7 @@ h2{
     /* border: 1px dotted; */
     margin-left: 15%;
     margin-right: 15%;
-    color: rgb(41, 39, 39);
+    color: white;
 }
 
 
@@ -125,7 +125,7 @@ a{
         margin-top: 25%;
         margin-left: 15%;
         margin-right: 15%;
-        color: rgb(41, 39, 39);
+        color: white;
         font-size: 50px;
         font-family: Helvetica;
     }
