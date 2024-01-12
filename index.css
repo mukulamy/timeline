@@ -4,7 +4,57 @@ body{
     text-align: center;  
 }
 
+#center, #content {
+    width: 50%; /* Set the width to 50% for desktop layout */
+    box-sizing: border-box; /* Include padding and border in the width */
+    float: left; /* Float the elements to the left for desktop layout */
+  }
 
+#clickButton{
+    margin:2vh;
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+    width: 20%;
+    height: 10%;
+    font-size: 20px;
+    font-family: Roboto;
+    color:white;
+    border-radius: 5px;
+    border: none;
+    background: rgba(92,12,178,1);
+  
+  background: linear-gradient(45deg, rgba(92,12,178,1) 0%, rgba(147,48,255,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5c0cb2', endColorstr='#9330ff', GradientType=1 );
+    box-shadow: 0px 3px 15px 0px rgba(180,180,180,1);
+  }
+  #clickButton p{
+    background:#rgba(134, 40, 238, 1);
+    line-height:100%
+    
+  }
+  
+  
+  #clickButton:hover{
+   -webkit-box-shadow: 0px 3px 27px 0px rgba(158,156,158,1);
+  -moz-box-shadow: 0px 3px 27px 0px rgba(158,156,158,1);
+  box-shadow: 0px 3px 27px 0px rgba(158,156,158,1);
+  
+  }
+  #clickButton:active{
+   -webkit-box-shadow: 0px 3px 6px 0px rgba(158,156,158,1);
+  -moz-box-shadow: 0px 3px 6px 0px rgba(158,156,158,1);
+  box-shadow: 0px 3px 6px 0px rgba(158,156,158,1);
+   
+  background: -moz-linear-gradient(45deg, rgba(92,12,178,1) 0%, rgba(107,0,223,1) 100%);
+  background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(92,12,178,1)), color-stop(100%, rgba(107,0,223,1)));
+  background: -webkit-linear-gradient(45deg, rgba(92,12,178,1) 0%, rgba(107,0,223,1) 100%);
+  background: -o-linear-gradient(45deg, rgba(92,12,178,1) 0%, rgba(107,0,223,1) 100%);
+  background: -ms-linear-gradient(45deg, rgba(92,12,178,1) 0%, rgba(107,0,223,1) 100%);
+  background: linear-gradient(45deg, rgba(92,12,178,1) 0%, rgba(107,0,223,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5c0cb2', endColorstr='#6b00df', GradientType=1 );
+    
+    
+  }
 
 #picture{
     border-radius: 50%;
@@ -13,8 +63,9 @@ body{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 200px;
-    height: 200px;
+    width: 350px;
+    height: 350px;
+    object-fit: contain;
     -webkit-box-shadow: 6px 6px 19px 2px rgba(255,255,255,1);
     -moz-box-shadow: 6px 6px 19px 2px rgba(255,255,255,1);
     box-shadow: 6px 6px 19px 2px rgba(255,255,255,1);
@@ -30,6 +81,8 @@ h2{
     /* border: 1px dotted; */
     margin-left: 15%;
     margin-right: 15%;
+    FONT-SIZE: 35px;
+    margin-top: 50px;
     color: white;
 }
 
@@ -38,18 +91,24 @@ h2{
 h3 u{
     text-align: center;
     color: white;
-    
+    font-size: 45px;
+}
+
+.link{
+    transform: scale(2);
+    margin: 50px;
 }
 
 #links{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
+    text-align: center; 
 }
 
 img{
     margin: 5px;
+    
 }
 
 .blink{
@@ -63,16 +122,17 @@ img{
 }
 .blink h1{
     text-align: center;
-    font-size: 25px;
+    font-size: 50px;
     font-family: cursive;
+    
     color: white;
     animation: blink 1s linear infinite;
 }
-@keyframes blink{
+/* @keyframes blink{
 0%{opacity: 0;}
 50%{opacity: .5;}
 100%{opacity: 1;}
-}
+} */
 
 a{
     color:red;
@@ -93,9 +153,15 @@ a{
           
          
     }
+    #center, #content {
+        width: 100%; /* Set the width to 100% for mobile layout */
+        float: none; /* Remove the float for mobile layout */
+      }
     
-    
-    
+      .link{
+        transform: scale(1);
+        /* margin: 5px; */
+    }
     #picture{
         border-radius: 50%;
         margin-left: auto;
@@ -103,6 +169,7 @@ a{
         display: block;
         margin-left: auto;
         margin-right: auto;
+        margin-top: 100px;
         width: 500px;
         height: 500px;
        -webkit-box-shadow: 6px 6px 19px 2px rgba(255,255,255,1);
@@ -117,6 +184,12 @@ a{
         
         
     }
+    #clickButton{
+        width: 40%;
+        height: 30%;
+        font-size:35px;
+        font-weight:500;
+      }
     h2{
         text-align: center;
         /* border: 1px dotted; */
@@ -170,13 +243,13 @@ a{
         font-size: 100px;
         font-family: cursive;
         color: white;
-        animation: blink 1s linear infinite;
+        /* animation: blink 1s linear infinite; */
     }
-    @keyframes blink{
+    /* @keyframes blink{
     0%{opacity: 0;}
     50%{opacity: .5;}
     100%{opacity: 1;}
-    }
+    } */
 
     .sp{
         font-size: large;
