@@ -1,3 +1,8 @@
+
+
+
+
+
 body{
     height: 97.5vh;
     background-color: black;
@@ -10,6 +15,8 @@ body{
     float: left; /* Float the elements to the left for desktop layout */
   }
 
+
+ 
 .clickButton{
     margin:2vh;
     transition: all 0.2s ease-in;
@@ -29,7 +36,7 @@ body{
   }
   .clickButton p{
     background:#rgba(134, 40, 238, 1);
-    line-height:100%
+    line-height:100%;
     
   }
   
@@ -99,7 +106,7 @@ h3 u{
     margin: 50px;
 }
 
-#links{
+.links{
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -153,6 +160,7 @@ span{
           
          
     }
+    
     #center, #content {
         width: 100%; /* Set the width to 100% for mobile layout */
         float: none; /* Remove the float for mobile layout */
@@ -207,6 +215,10 @@ span{
         padding-right: 0%;
         margin: 0ch;
     }
+
+    a:hover{
+        transform: scale(0.1);
+    }
     
     h3 u{
         text-align: center;
@@ -215,7 +227,7 @@ span{
         font-family: Helvetica;
     }
     
-    #links{
+    .links{
         display: block;
         margin-left: auto;
         margin-right: auto;
